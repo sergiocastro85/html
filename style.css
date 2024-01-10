@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.fondo {
+    
+    width: 100vw;
+    height: 100vw;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.pngtree.com%2Ffreebackground%2Fpisces-background_1629791.html&psig=AOvVaw0k7CH9_CuECUzyCp15DjOl&ust=1704930375201000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDEzPW-0YMDFQAAAAAdAAAAABAJ);
+    font-size: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Horoscopo{
+    width: 40vw;
+    height: 60vw;
+    background-color: aquamarine;
+    border: 3px black solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    padding: 20px;
+}
+
+.Horoscopo img{
+    width: 50%;
+    max-width: 170%;
+    display: block;
+    margin: auto;
+}
+
+.piscis{
+    width: 65%;
+    height: 10%;
+    background-color: aquamarine;
+    color: black;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+    font-size: 2.3rem;
+    position:absolute;
+    top: -8%;
+    left: 17.5%;
+
+}
+
+.fondo p{
+    line-height: 1.5;
+}
